@@ -20,7 +20,7 @@ const humanizeDuration = require("humanize-duration");
 
 client.on("ready", () => {
   console.log(`Logged in as : ${client.user.username}`);
-  client.user.setActivity(`بيوي و حكسر بس`);
+  client.user.setActivity(`Prefix = -`);
   client.user.setStatus("idle");
 });
 const owners = ["352460871856947200", "527826654660132890"]
