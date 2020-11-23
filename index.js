@@ -20,10 +20,10 @@ const humanizeDuration = require("humanize-duration");
 
 client.on("ready", () => {
   console.log(`Logged in as : ${client.user.username}`);
-  client.user.setActivity(`Prefix = -`);
+  client.user.setActivity(`soch the best`);
   client.user.setStatus("idle");
 });
-const owners = ["352460871856947200", "527826654660132890"]
+const owners = ["352460871856947200", "527826654660132890", "455108784579149835", "665309785544982531", "467712107631083521", "711430147273654323"]
 var prefix = "-"; 
 
 client.on("message", async message => {
